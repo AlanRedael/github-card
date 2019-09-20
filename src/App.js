@@ -4,7 +4,7 @@ import CardProfile from './components/CardProfile/CardProfile'
 
 function App () {
   return (
-    <div className="App">
+    <div className="App flex justify-center h-screen">
       <CardProfile />
     </div>
   )
