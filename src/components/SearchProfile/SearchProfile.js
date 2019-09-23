@@ -5,6 +5,7 @@ export default class SearchProfile extends React.Component {
     e.preventDefault()
     const user = e.target.username.value
     this.props.searchUser(user)
+    e.target.username.value = ''
   }
 
   render () {
